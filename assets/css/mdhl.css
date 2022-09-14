@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+:root{
+    --font: 'Combo', cursive;
+    --brown: #211915;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: var(--font);
+    background-color: #2119152e;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--brown);
+}
+
+a:hover{
+    color: rgba(221, 134, 20, 0.85);
+}
+
+a:active{
+    color: rgb(17,164,184);
+}
+
+
+/*? Header */
+/** General para todas las páginas **/
+.banner{
+    max-height: 20em;
+    margin-bottom: 13em;
+}
+
+.img-container{
+    width: 100%;
+    height: 20em;
+    position: absolute;
+    background-color: rgba(161, 158, 95, 0.85)
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.45;
+}
+
+.tittle{
+    background-color: rgba(255, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    left: 0;
+    color: var(--brown);
+}
+
+.tittle_text{
+    font-size: 5em;
+    padding-left: 0.5em;
+    /* animation: animate__pulse 5s ease infinite alternate; */
+}
+
+.container-subtittle{
+    max-height: 5em;
+    text-align: center;
+    margin-bottom: 20em;
+}
+
+.subtittle{
+    width: 100%;
+    position: absolute;
+    background-color: black;
+}
+
+.subtittle h2{
+    font-size: 2em;
+    color: white;
+}
+
+.logo{
+    position: relative;
+    margin-top: -21px;
+    margin-right: 50px;
+    float: right;
+    color: var(--brown);
+}
+
+.logo img{
+    width: 100px;
+}
+/*? Fin Header */
+
+
+/*? Main */
+/** General **/
+.info{
+    display: flex;
+    gap: 6em;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 3.3em;
+    padding-left: 0.5em;
+}
+
+/** About MDHL **/
+.definicion_evento{
+    margin-bottom: 1.5em;
+    padding-left: 1em;
+}
+
+.termino{
+    font-weight: bold;
+}
+
+.sangria{
+    padding-left: 1em;
+}
+
+.definicion{
+    margin-bottom: 1.5em;
+}
+
+.definition{
+    width: 85%;
+}
+
+/** Contact **/
+.text{
+    margin-top: 1em;
+}
+/*? Fin Main */
