@@ -87,7 +87,7 @@ a:active{
 .logo{
     position: absolute;
     right: 9%;
-    top: 45%;
+    margin-top: -39px;
     color: var(--brown);
 }
 
