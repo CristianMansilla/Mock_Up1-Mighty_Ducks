@@ -107,6 +107,7 @@ a:active{
 .navbar{
     display: flex;
     flex-direction: column;
+    padding: 1em;
     gap: 3.3em;
     padding-left: 1em;
 }
